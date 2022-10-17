@@ -26,11 +26,19 @@ body {
     }
     .active {
       color: $purple !important;
-      font-weight: map-get($font-weights,medium) !important;
+      font-weight: map-get($font-weights, medium) !important;
     }
     .nav-link {
       color: $navy;
-      font-weight: map-get($font-weights,regular);
+      font-weight: map-get($font-weights, regular);
+    }
+  }
+}
+
+.sales {
+  .copywriting {
+    .header {
+      font-weight: map-get($font-weights, semibold);
     }
   }
 }
