@@ -18,6 +18,38 @@ body {
   font-weight: 400;
 }
 
-.sales .copywriting .header {
+.btn-master, .btn-secondary, .btn-primary {
+  padding: 15px 26px;
+  border-radius: 10px;
   font-weight: 600;
+}
+
+.btn-primary {
+  background: #563ad6;
+  color: #fff;
+  border: none;
+}
+
+.btn-secondary {
+  background: #eaeaf4;
+  color: #777790;
+  border: none;
+}
+
+.sales {
+  padding-top: 100px;
+}
+.sales .copywriting .header {
+  font-size: 46px;
+  font-weight: 600;
+  color: #02044a;
+  line-height: 60px;
+}
+.sales .copywriting .description {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #9b9cb7;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
