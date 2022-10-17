@@ -66,6 +66,14 @@ body {
   padding: 30px;
   border-radius: 22px;
 }
+.pricing .master-card .item-benefit img, .pricing .basic-card .item-benefit img {
+  float: left;
+  margin-right: 8px;
+}
+.pricing .master-card .item-benefit p, .pricing .basic-card .item-benefit p {
+  font-size: 16px;
+  font-weight: 500;
+}
 .pricing .master-card .name, .pricing .basic-card .name {
   font-size: 18px;
   font-weight: 500;
@@ -80,8 +88,14 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+.pricing .master-card .btn, .pricing .basic-card .btn {
+  width: 100%;
+}
 .pricing .basic-card {
   background: #fff;
+}
+.pricing .basic-card .item-benefit {
+  color: #02044a;
 }
 .pricing .basic-card .name {
   color: #02044a;

@@ -54,6 +54,16 @@ body {
   .master-card {
     padding: 30px;
     border-radius: 22px;
+    .item-benefit {
+      img {
+        float: left;
+        margin-right: 8px;
+      }
+      p {
+        font-size: 16px;
+        font-weight: map-get($font-weights, medium);
+      }
+    }
     .name {
       font-size: 18px;
       font-weight: map-get($font-weights, medium);
@@ -68,10 +78,16 @@ body {
       font-size: 16px;
       font-weight: map-get($font-weights, regular);
     }
+    .btn{
+        width: 100%;
+    }
   }
   .basic-card {
     @extend .master-card;
     background: $white;
+    .item-benefit{
+        color: $navy;
+    }
     .name {
       color: $navy;
     }
