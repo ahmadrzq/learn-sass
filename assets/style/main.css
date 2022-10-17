@@ -66,8 +66,25 @@ body {
   padding: 30px;
   border-radius: 22px;
 }
+.pricing .master-card .name, .pricing .basic-card .name {
+  font-size: 18px;
+  font-weight: 500;
+}
+.pricing .master-card .price, .pricing .basic-card .price {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.pricing .master-card .support, .pricing .basic-card .support {
+  font-size: 16px;
+  font-weight: 400;
+}
 .pricing .basic-card {
   background: #fff;
+}
+.pricing .basic-card .name {
+  color: #02044a;
 }
 
 .header {

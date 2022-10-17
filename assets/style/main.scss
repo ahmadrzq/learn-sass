@@ -54,10 +54,27 @@ body {
   .master-card {
     padding: 30px;
     border-radius: 22px;
+    .name {
+      font-size: 18px;
+      font-weight: map-get($font-weights, medium);
+    }
+    .price {
+      font-size: 36px;
+      font-weight: map-get($font-weights, semibold);
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+    .support {
+      font-size: 16px;
+      font-weight: map-get($font-weights, regular);
+    }
   }
-  .basic-card{
+  .basic-card {
     @extend .master-card;
     background: $white;
+    .name {
+      color: $navy;
+    }
   }
 }
 
