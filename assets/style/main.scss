@@ -49,20 +49,29 @@ body {
 }
 
 .pricing {
-    background: $lilpur;
-    padding-top: 100px;
-  .header {
-    font-size: 46px;
-    font-weight: map-get($font-weights, semibold);
-    color: $navy;
-    line-height: 60px;
+  background: $lilpur;
+  padding-top: 100px;
+  .master-card {
+    padding: 30px;
+    border-radius: 22px;
   }
-  .description {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    color: $newpurple;
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: map-get($font-weights, regular);
+  .basic-card{
+    @extend .master-card;
+    background: $white;
   }
+}
+
+.header {
+  font-size: 46px;
+  font-weight: map-get($font-weights, semibold);
+  color: $navy;
+  line-height: 60px;
+}
+.description {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: $newpurple;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: map-get($font-weights, regular);
 }

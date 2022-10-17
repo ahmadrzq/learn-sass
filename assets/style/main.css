@@ -62,13 +62,22 @@ body {
   background: #f9f9fb;
   padding-top: 100px;
 }
-.pricing .header {
+.pricing .master-card, .pricing .basic-card {
+  padding: 30px;
+  border-radius: 22px;
+}
+.pricing .basic-card {
+  background: #fff;
+}
+
+.header {
   font-size: 46px;
   font-weight: 600;
   color: #02044a;
   line-height: 60px;
 }
-.pricing .description {
+
+.description {
   margin-top: 20px;
   margin-bottom: 40px;
   color: #9b9cb7;
