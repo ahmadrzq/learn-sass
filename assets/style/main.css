@@ -37,7 +37,7 @@ body {
 }
 
 .sales {
-  padding-top: 100px;
+  padding: 100px 0 50px;
 }
 .sales .copywriting .header {
   font-size: 46px;
@@ -55,4 +55,24 @@ body {
 }
 .sales .brands-logo {
   opacity: 0.4;
+  padding-bottom: 20px 0;
+}
+
+.pricing {
+  background: #f9f9fb;
+  padding-top: 100px;
+}
+.pricing .header {
+  font-size: 46px;
+  font-weight: 600;
+  color: #02044a;
+  line-height: 60px;
+}
+.pricing .description {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #9b9cb7;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
